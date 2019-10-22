@@ -1,0 +1,130 @@
+INFO  00:31:44,999 - Compiling source file: C:\Users\vdb\Documents\vv\ETF\pp1\projekat\workspace\MJCompiler\test\testOptarg.mj
+INFO  00:31:45,099 - #2 program
+INFO  00:31:45,100 - #14 testOptarg
+INFO  00:31:45,100 - #3 {
+INFO  00:31:45,102 - #49 optarg
+INFO  00:31:45,103 - #14 int
+INFO  00:31:45,105 - #14 a
+INFO  00:31:45,107 - #6 (
+INFO  00:31:45,108 - #14 int
+INFO  00:31:45,108 - #14 x
+INFO  00:31:45,108 - #8 ,
+INFO  00:31:45,109 - #14 char
+INFO  00:31:45,109 - #14 y
+INFO  00:31:45,109 - #8 ,
+INFO  00:31:45,109 - #14 bool
+INFO  00:31:45,110 - #14 z
+INFO  00:31:45,110 - #8 ,
+INFO  00:31:45,110 - #14 int
+INFO  00:31:45,110 - #14 niz
+INFO  00:31:45,110 - #19 [
+INFO  00:31:45,110 - #20 ]
+INFO  00:31:45,111 - #7 )
+INFO  00:31:45,112 - #14 int
+INFO  00:31:45,113 - #14 q
+INFO  00:31:45,114 - #5 ;
+INFO  00:31:45,114 - #3 {
+INFO  00:31:45,115 - #9 print
+INFO  00:31:45,116 - #6 (
+INFO  00:31:45,116 - #14 x
+INFO  00:31:45,116 - #7 )
+INFO  00:31:45,119 - #5 ;
+INFO  00:31:45,119 - #9 print
+INFO  00:31:45,120 - #6 (
+INFO  00:31:45,120 - #14 ord
+INFO  00:31:45,121 - #6 (
+INFO  00:31:45,122 - #14 y
+INFO  00:31:45,122 - #7 )
+INFO  00:31:45,124 - #7 )
+INFO  00:31:45,124 - #5 ;
+INFO  00:31:45,124 - #9 print
+INFO  00:31:45,124 - #6 (
+INFO  00:31:45,124 - #14 z
+INFO  00:31:45,124 - #7 )
+INFO  00:31:45,125 - #5 ;
+INFO  00:31:45,125 - #9 print
+INFO  00:31:45,125 - #6 (
+INFO  00:31:45,125 - #14 eol
+INFO  00:31:45,125 - #7 )
+INFO  00:31:45,125 - #5 ;
+INFO  00:31:45,126 - #14 q
+INFO  00:31:45,126 - #11 =
+INFO  00:31:45,126 - #42 -
+INFO  00:31:45,128 - #14 x
+INFO  00:31:45,128 - #5 ;
+INFO  00:31:45,128 - #10 return
+INFO  00:31:45,129 - #14 q
+INFO  00:31:45,129 - #5 ;
+INFO  00:31:45,129 - #4 }
+INFO  00:31:45,129 - #12 void
+INFO  00:31:45,132 - #14 main
+INFO  00:31:45,133 - #6 (
+INFO  00:31:45,133 - #7 )
+INFO  00:31:45,134 - #14 int
+INFO  00:31:45,134 - #14 broj
+INFO  00:31:45,134 - #5 ;
+INFO  00:31:45,135 - #3 {
+INFO  00:31:45,135 - #14 broj
+INFO  00:31:45,135 - #11 =
+INFO  00:31:45,135 - #14 a
+INFO  00:31:45,136 - #6 (
+INFO  00:31:45,136 - #13 5
+INFO  00:31:45,136 - #8 ,
+INFO  00:31:45,136 - #46 X
+INFO  00:31:45,136 - #8 ,
+INFO  00:31:45,137 - #47 true
+INFO  00:31:45,137 - #8 ,
+INFO  00:31:45,137 - #33 new
+INFO  00:31:45,137 - #14 int
+INFO  00:31:45,138 - #19 [
+INFO  00:31:45,138 - #13 2
+INFO  00:31:45,138 - #20 ]
+INFO  00:31:45,138 - #7 )
+INFO  00:31:45,139 - #5 ;
+INFO  00:31:45,139 - #9 print
+INFO  00:31:45,139 - #6 (
+INFO  00:31:45,139 - #14 broj
+INFO  00:31:45,140 - #7 )
+INFO  00:31:45,140 - #5 ;
+INFO  00:31:45,140 - #9 print
+INFO  00:31:45,140 - #6 (
+INFO  00:31:45,140 - #14 eol
+INFO  00:31:45,140 - #7 )
+INFO  00:31:45,140 - #5 ;
+INFO  00:31:45,140 - #14 broj
+INFO  00:31:45,141 - #11 =
+INFO  00:31:45,141 - #14 a
+INFO  00:31:45,141 - #6 (
+INFO  00:31:45,141 - #7 )
+INFO  00:31:45,142 - #5 ;
+INFO  00:31:45,143 - #9 print
+INFO  00:31:45,143 - #6 (
+INFO  00:31:45,143 - #14 broj
+INFO  00:31:45,143 - #7 )
+INFO  00:31:45,143 - #5 ;
+INFO  00:31:45,143 - #9 print
+INFO  00:31:45,144 - #6 (
+INFO  00:31:45,144 - #14 eol
+INFO  00:31:45,144 - #7 )
+INFO  00:31:45,144 - #5 ;
+INFO  00:31:45,144 - #4 }
+INFO  00:31:45,144 - #4 }
+INFO  00:31:45,163 - Obradjuje se funkcija a na liniji 6
+INFO  00:31:45,164 - Deklaracija Var q: int, 4, 1  na liniji 7
+INFO  00:31:45,164 - Upotreba lokalne promenljive x na liniji 9
+INFO  00:31:45,165 - Upotreba lokalne promenljive y na liniji 9
+INFO  00:31:45,254 - Upotreba lokalne promenljive z na liniji 9
+INFO  00:31:45,255 - Upotreba simbolicke konstante eol na liniji 10
+INFO  00:31:45,255 - Upotreba lokalne promenljive q na liniji 11
+INFO  00:31:45,255 - Upotreba lokalne promenljive x na liniji 11
+INFO  00:31:45,255 - Upotreba lokalne promenljive q na liniji 12
+INFO  00:31:45,256 - Obradjuje se funkcija main na liniji 17
+INFO  00:31:45,256 - Deklaracija Var broj: int, 0, 1  na liniji 18
+INFO  00:31:45,256 - Upotreba lokalne promenljive broj na liniji 20
+INFO  00:31:45,256 - Upotreba lokalne promenljive broj na liniji 21
+INFO  00:31:45,257 - Upotreba simbolicke konstante eol na liniji 22
+INFO  00:31:45,257 - Upotreba lokalne promenljive broj na liniji 23
+INFO  00:31:45,257 - Upotreba lokalne promenljive broj na liniji 24
+INFO  00:31:45,257 - Upotreba simbolicke konstante eol na liniji 25
+INFO  00:31:45,262 - Generating bytecode file: C:\Users\vdb\Documents\vv\ETF\pp1\projekat\workspace\MJCompiler\test\program.obj
+INFO  00:31:45,276 - Parsiranje uspesno zavrseno!

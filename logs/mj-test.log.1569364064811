@@ -1,0 +1,29 @@
+INFO  00:27:11,758 - Compiling source file: C:\Users\vdb\Documents\vv\ETF\pp1\projekat\workspace\MJCompiler\test\testErr.mj
+INFO  00:27:11,851 - #2 program
+INFO  00:27:11,852 - #14 testErrors
+INFO  00:27:11,852 - #14 int
+INFO  00:27:11,854 - #14 a
+INFO  00:27:11,856 - #5 ;
+INFO  00:27:11,856 - #14 int
+INFO  00:27:11,857 - #14 b
+INFO  00:27:11,857 - #5 ;
+INFO  00:27:11,857 - #3 {
+INFO  00:27:11,858 - #12 void
+INFO  00:27:11,860 - #14 main
+INFO  00:27:11,861 - #6 (
+INFO  00:27:11,862 - #7 )
+INFO  00:27:11,863 - #3 {
+INFO  00:27:11,865 - #14 b
+INFO  00:27:11,866 - #11 =
+INFO  00:27:11,866 - #13 2
+INFO  00:27:11,868 - #5 ;
+INFO  00:27:11,868 - #14 a
+INFO  00:27:11,869 - #11 =
+INFO  00:27:11,869 - #14 b
+INFO  00:27:11,892 - #13 2
+ERROR 00:27:11,892 - 
+Sintaksna greska na liniji 13
+INFO  00:27:11,892 - #5 ;
+INFO  00:27:11,893 - #9 print
+INFO  00:27:11,893 - #6 (
+INFO  00:27:11,899 - #46 o

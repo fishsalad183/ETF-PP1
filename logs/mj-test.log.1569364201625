@@ -1,0 +1,44 @@
+INFO  00:29:44,831 - Compiling source file: C:\Users\vdb\Documents\vv\ETF\pp1\projekat\workspace\MJCompiler\test\testErr.mj
+INFO  00:29:44,923 - #2 program
+INFO  00:29:44,923 - #14 testErrors
+INFO  00:29:44,924 - #14 int
+INFO  00:29:44,926 - #14 a
+INFO  00:29:44,927 - #5 ;
+INFO  00:29:44,928 - #14 int
+INFO  00:29:44,929 - #14 b
+INFO  00:29:44,929 - #5 ;
+INFO  00:29:44,929 - #3 {
+INFO  00:29:44,929 - #12 void
+INFO  00:29:44,932 - #14 main
+INFO  00:29:44,933 - #6 (
+INFO  00:29:44,934 - #7 )
+INFO  00:29:44,935 - #3 {
+INFO  00:29:44,937 - #14 b
+INFO  00:29:44,938 - #11 =
+INFO  00:29:44,938 - #13 2
+INFO  00:29:44,940 - #5 ;
+INFO  00:29:44,941 - #14 a
+INFO  00:29:44,942 - #11 =
+INFO  00:29:44,942 - #14 b
+INFO  00:29:44,943 - #42 -
+INFO  00:29:44,943 - #5 ;
+ERROR 00:29:44,943 - 
+Sintaksna greska na liniji 13
+INFO  00:29:44,943 - #9 print
+INFO  00:29:44,943 - #6 (
+INFO  00:29:44,944 - #46 o
+ERROR 00:29:44,949 - Oporavak od greske pri dodeli vrednosti na liniji 1
+INFO  00:29:44,950 - #7 )
+INFO  00:29:44,951 - #5 ;
+INFO  00:29:44,951 - #9 print
+INFO  00:29:44,951 - #6 (
+INFO  00:29:44,951 - #46 k
+INFO  00:29:44,952 - #7 )
+INFO  00:29:44,952 - #5 ;
+INFO  00:29:44,952 - #4 }
+INFO  00:29:44,952 - #4 }
+INFO  00:29:44,966 - Deklaracija Var a: int, 0, 0  na liniji 5
+INFO  00:29:44,967 - Deklaracija Var b: int, 1, 0  na liniji 7
+INFO  00:29:44,967 - Obradjuje se funkcija main na liniji 10
+INFO  00:29:44,967 - Upotreba globalne promenljive b na liniji 12
+ERROR 00:29:44,969 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,412 @@
+INFO  00:44:43,487 - Compiling source file: C:\Users\vdb\Documents\vv\ETF\_ VII semestar\pp1\projekat\workspace\MJCompiler\test\test.mj
+INFO  00:44:43,584 - #2 program
+INFO  00:44:43,584 - #14 test
+INFO  00:44:43,584 - #18 enum
+INFO  00:44:43,587 - #14 Broj
+INFO  00:44:43,587 - #3 {
+INFO  00:44:43,588 - #14 NULA
+INFO  00:44:43,588 - #8 ,
+INFO  00:44:43,589 - #14 JEDAN
+INFO  00:44:43,589 - #8 ,
+INFO  00:44:43,589 - #14 SEDAM
+INFO  00:44:43,590 - #11 =
+INFO  00:44:43,590 - #13 7
+INFO  00:44:43,590 - #8 ,
+INFO  00:44:43,591 - #14 OSAM
+INFO  00:44:43,591 - #4 }
+INFO  00:44:43,592 - #17 const
+INFO  00:44:43,596 - #14 int
+INFO  00:44:43,596 - #14 i
+INFO  00:44:43,599 - #11 =
+INFO  00:44:43,599 - #13 5
+INFO  00:44:43,599 - #5 ;
+INFO  00:44:43,602 - #3 {
+INFO  00:44:43,603 - #14 bool
+INFO  00:44:43,611 - #14 testOrdLen
+INFO  00:44:43,612 - #6 (
+INFO  00:44:43,614 - #14 char
+INFO  00:44:43,615 - #14 nizch
+INFO  00:44:43,615 - #19 [
+INFO  00:44:43,615 - #20 ]
+INFO  00:44:43,615 - #8 ,
+INFO  00:44:43,616 - #14 Broj
+INFO  00:44:43,616 - #14 broj
+INFO  00:44:43,616 - #7 )
+INFO  00:44:43,617 - #3 {
+INFO  00:44:43,618 - #9 print
+INFO  00:44:43,626 - #6 (
+INFO  00:44:43,626 - #14 ord
+INFO  00:44:43,627 - #6 (
+INFO  00:44:43,629 - #14 nizch
+INFO  00:44:43,629 - #19 [
+INFO  00:44:43,629 - #13 0
+INFO  00:44:43,629 - #20 ]
+INFO  00:44:43,630 - #7 )
+INFO  00:44:43,633 - #7 )
+INFO  00:44:43,634 - #5 ;
+INFO  00:44:43,634 - #9 print
+INFO  00:44:43,634 - #6 (
+INFO  00:44:43,634 - #14 ord
+INFO  00:44:43,634 - #6 (
+INFO  00:44:43,634 - #14 nizch
+INFO  00:44:43,634 - #19 [
+INFO  00:44:43,635 - #13 1
+INFO  00:44:43,635 - #20 ]
+INFO  00:44:43,635 - #7 )
+INFO  00:44:43,635 - #7 )
+INFO  00:44:43,635 - #5 ;
+INFO  00:44:43,636 - #9 print
+INFO  00:44:43,636 - #6 (
+INFO  00:44:43,636 - #14 ord
+INFO  00:44:43,636 - #6 (
+INFO  00:44:43,636 - #14 nizch
+INFO  00:44:43,637 - #19 [
+INFO  00:44:43,637 - #13 2
+INFO  00:44:43,638 - #20 ]
+INFO  00:44:43,638 - #7 )
+INFO  00:44:43,639 - #7 )
+INFO  00:44:43,639 - #5 ;
+INFO  00:44:43,639 - #9 print
+INFO  00:44:43,646 - #6 (
+INFO  00:44:43,647 - #14 ord
+INFO  00:44:43,647 - #6 (
+INFO  00:44:43,648 - #14 nizch
+INFO  00:44:43,648 - #19 [
+INFO  00:44:43,648 - #13 3
+INFO  00:44:43,648 - #20 ]
+INFO  00:44:43,650 - #7 )
+INFO  00:44:43,650 - #7 )
+INFO  00:44:43,650 - #5 ;
+INFO  00:44:43,650 - #9 print
+INFO  00:44:43,650 - #6 (
+INFO  00:44:43,650 - #14 broj
+INFO  00:44:43,651 - #7 )
+INFO  00:44:43,651 - #5 ;
+INFO  00:44:43,651 - #9 print
+INFO  00:44:43,651 - #6 (
+INFO  00:44:43,651 - #14 len
+INFO  00:44:43,651 - #6 (
+INFO  00:44:43,652 - #14 nizch
+INFO  00:44:43,652 - #7 )
+INFO  00:44:43,652 - #7 )
+INFO  00:44:43,652 - #5 ;
+INFO  00:44:43,652 - #10 return
+INFO  00:44:43,653 - #47 true
+INFO  00:44:43,653 - #5 ;
+INFO  00:44:43,653 - #4 }
+INFO  00:44:43,653 - #12 void
+INFO  00:44:43,655 - #14 main
+INFO  00:44:43,656 - #6 (
+INFO  00:44:43,656 - #7 )
+INFO  00:44:43,657 - #14 Broj
+INFO  00:44:43,658 - #14 niz
+INFO  00:44:43,660 - #19 [
+INFO  00:44:43,660 - #20 ]
+INFO  00:44:43,660 - #5 ;
+INFO  00:44:43,660 - #14 char
+INFO  00:44:43,661 - #14 ch
+INFO  00:44:43,661 - #5 ;
+INFO  00:44:43,661 - #14 Broj
+INFO  00:44:43,661 - #14 niz2
+INFO  00:44:43,661 - #19 [
+INFO  00:44:43,662 - #20 ]
+INFO  00:44:43,662 - #5 ;
+INFO  00:44:43,662 - #14 char
+INFO  00:44:43,662 - #14 nizch
+INFO  00:44:43,662 - #19 [
+INFO  00:44:43,662 - #20 ]
+INFO  00:44:43,662 - #5 ;
+INFO  00:44:43,663 - #14 bool
+INFO  00:44:43,663 - #14 b
+INFO  00:44:43,663 - #5 ;
+INFO  00:44:43,663 - #14 int
+INFO  00:44:43,663 - #14 i
+INFO  00:44:43,663 - #5 ;
+INFO  00:44:43,664 - #14 int
+INFO  00:44:43,664 - #14 nizint
+INFO  00:44:43,664 - #19 [
+INFO  00:44:43,664 - #20 ]
+INFO  00:44:43,664 - #5 ;
+INFO  00:44:43,664 - #3 {
+INFO  00:44:43,665 - #14 i
+INFO  00:44:43,665 - #11 =
+INFO  00:44:43,665 - #42 -
+INFO  00:44:43,668 - #13 7
+INFO  00:44:43,668 - #5 ;
+INFO  00:44:43,668 - #14 i
+INFO  00:44:43,669 - #29 ++
+INFO  00:44:43,669 - #5 ;
+INFO  00:44:43,669 - #9 print
+INFO  00:44:43,669 - #6 (
+INFO  00:44:43,670 - #14 i
+INFO  00:44:43,670 - #7 )
+INFO  00:44:43,670 - #5 ;
+INFO  00:44:43,670 - #9 print
+INFO  00:44:43,670 - #6 (
+INFO  00:44:43,670 - #14 eol
+INFO  00:44:43,670 - #7 )
+INFO  00:44:43,670 - #5 ;
+INFO  00:44:43,670 - #14 niz
+INFO  00:44:43,671 - #11 =
+INFO  00:44:43,671 - #33 new
+INFO  00:44:43,671 - #14 Broj
+INFO  00:44:43,671 - #19 [
+INFO  00:44:43,671 - #13 4
+INFO  00:44:43,671 - #20 ]
+INFO  00:44:43,671 - #5 ;
+INFO  00:44:43,672 - #14 niz
+INFO  00:44:43,672 - #19 [
+INFO  00:44:43,673 - #13 0
+INFO  00:44:43,673 - #20 ]
+INFO  00:44:43,673 - #11 =
+INFO  00:44:43,674 - #14 Broj
+INFO  00:44:43,674 - #34 .
+INFO  00:44:43,674 - #14 SEDAM
+INFO  00:44:43,674 - #5 ;
+INFO  00:44:43,674 - #14 niz
+INFO  00:44:43,674 - #19 [
+INFO  00:44:43,675 - #13 1
+INFO  00:44:43,675 - #20 ]
+INFO  00:44:43,675 - #11 =
+INFO  00:44:43,675 - #14 Broj
+INFO  00:44:43,675 - #34 .
+INFO  00:44:43,675 - #14 JEDAN
+INFO  00:44:43,675 - #5 ;
+INFO  00:44:43,676 - #14 niz
+INFO  00:44:43,676 - #19 [
+INFO  00:44:43,676 - #13 2
+INFO  00:44:43,676 - #20 ]
+INFO  00:44:43,676 - #11 =
+INFO  00:44:43,676 - #14 Broj
+INFO  00:44:43,677 - #34 .
+INFO  00:44:43,677 - #14 OSAM
+INFO  00:44:43,677 - #5 ;
+INFO  00:44:43,677 - #14 niz
+INFO  00:44:43,677 - #19 [
+INFO  00:44:43,677 - #13 3
+INFO  00:44:43,678 - #20 ]
+INFO  00:44:43,678 - #11 =
+INFO  00:44:43,678 - #14 Broj
+INFO  00:44:43,678 - #34 .
+INFO  00:44:43,678 - #14 NULA
+INFO  00:44:43,678 - #5 ;
+INFO  00:44:43,678 - #9 print
+INFO  00:44:43,678 - #6 (
+INFO  00:44:43,679 - #42 -
+INFO  00:44:43,679 - #6 (
+INFO  00:44:43,679 - #14 niz
+INFO  00:44:43,679 - #19 [
+INFO  00:44:43,679 - #13 0
+INFO  00:44:43,679 - #20 ]
+INFO  00:44:43,679 - #43 *
+INFO  00:44:43,679 - #6 (
+INFO  00:44:43,681 - #6 (
+INFO  00:44:43,682 - #13 2
+INFO  00:44:43,682 - #7 )
+INFO  00:44:43,682 - #7 )
+INFO  00:44:43,682 - #7 )
+INFO  00:44:43,682 - #7 )
+INFO  00:44:43,683 - #5 ;
+INFO  00:44:43,683 - #9 print
+INFO  00:44:43,683 - #6 (
+INFO  00:44:43,683 - #14 niz
+INFO  00:44:43,683 - #19 [
+INFO  00:44:43,683 - #13 1
+INFO  00:44:43,683 - #20 ]
+INFO  00:44:43,683 - #7 )
+INFO  00:44:43,684 - #5 ;
+INFO  00:44:43,684 - #9 print
+INFO  00:44:43,684 - #6 (
+INFO  00:44:43,684 - #14 niz
+INFO  00:44:43,684 - #19 [
+INFO  00:44:43,684 - #13 2
+INFO  00:44:43,684 - #20 ]
+INFO  00:44:43,684 - #7 )
+INFO  00:44:43,685 - #5 ;
+INFO  00:44:43,685 - #9 print
+INFO  00:44:43,685 - #6 (
+INFO  00:44:43,685 - #14 niz
+INFO  00:44:43,685 - #19 [
+INFO  00:44:43,685 - #13 3
+INFO  00:44:43,685 - #20 ]
+INFO  00:44:43,685 - #7 )
+INFO  00:44:43,685 - #5 ;
+INFO  00:44:43,685 - #9 print
+INFO  00:44:43,686 - #6 (
+INFO  00:44:43,686 - #14 eol
+INFO  00:44:43,686 - #7 )
+INFO  00:44:43,686 - #5 ;
+INFO  00:44:43,686 - #9 print
+INFO  00:44:43,686 - #6 (
+INFO  00:44:43,686 - #14 chr
+INFO  00:44:43,686 - #6 (
+INFO  00:44:43,686 - #13 80
+INFO  00:44:43,686 - #7 )
+INFO  00:44:43,686 - #7 )
+INFO  00:44:43,687 - #5 ;
+INFO  00:44:43,687 - #14 ch
+INFO  00:44:43,687 - #11 =
+INFO  00:44:43,687 - #14 chr
+INFO  00:44:43,687 - #6 (
+INFO  00:44:43,687 - #13 80
+INFO  00:44:43,687 - #41 +
+INFO  00:44:43,687 - #14 niz
+INFO  00:44:43,690 - #19 [
+INFO  00:44:43,690 - #13 1
+INFO  00:44:43,690 - #20 ]
+INFO  00:44:43,690 - #7 )
+INFO  00:44:43,691 - #5 ;
+INFO  00:44:43,691 - #9 print
+INFO  00:44:43,691 - #6 (
+INFO  00:44:43,691 - #14 ch
+INFO  00:44:43,692 - #7 )
+INFO  00:44:43,692 - #5 ;
+INFO  00:44:43,692 - #9 print
+INFO  00:44:43,692 - #6 (
+INFO  00:44:43,692 - #14 chr
+INFO  00:44:43,692 - #6 (
+INFO  00:44:43,692 - #13 80
+INFO  00:44:43,693 - #41 +
+INFO  00:44:43,693 - #14 niz
+INFO  00:44:43,693 - #19 [
+INFO  00:44:43,693 - #13 2
+INFO  00:44:43,693 - #20 ]
+INFO  00:44:43,693 - #7 )
+INFO  00:44:43,693 - #7 )
+INFO  00:44:43,693 - #5 ;
+INFO  00:44:43,694 - #14 niz2
+INFO  00:44:43,694 - #11 =
+INFO  00:44:43,694 - #14 niz
+INFO  00:44:43,694 - #5 ;
+INFO  00:44:43,694 - #9 print
+INFO  00:44:43,694 - #6 (
+INFO  00:44:43,694 - #14 niz2
+INFO  00:44:43,694 - #19 [
+INFO  00:44:43,694 - #13 0
+INFO  00:44:43,695 - #20 ]
+INFO  00:44:43,695 - #7 )
+INFO  00:44:43,695 - #5 ;
+INFO  00:44:43,695 - #9 print
+INFO  00:44:43,695 - #6 (
+INFO  00:44:43,695 - #14 niz2
+INFO  00:44:43,696 - #19 [
+INFO  00:44:43,696 - #13 1
+INFO  00:44:43,696 - #20 ]
+INFO  00:44:43,696 - #7 )
+INFO  00:44:43,696 - #5 ;
+INFO  00:44:43,696 - #9 print
+INFO  00:44:43,696 - #6 (
+INFO  00:44:43,696 - #14 eol
+INFO  00:44:43,697 - #7 )
+INFO  00:44:43,697 - #5 ;
+INFO  00:44:43,697 - #14 nizch
+INFO  00:44:43,697 - #11 =
+INFO  00:44:43,697 - #33 new
+INFO  00:44:43,697 - #14 char
+INFO  00:44:43,697 - #19 [
+INFO  00:44:43,697 - #13 4
+INFO  00:44:43,698 - #20 ]
+INFO  00:44:43,698 - #5 ;
+INFO  00:44:43,698 - #14 nizch
+INFO  00:44:43,698 - #19 [
+INFO  00:44:43,698 - #13 0
+INFO  00:44:43,698 - #20 ]
+INFO  00:44:43,698 - #11 =
+INFO  00:44:43,699 - #46 A
+INFO  00:44:43,699 - #5 ;
+INFO  00:44:43,699 - #14 nizch
+INFO  00:44:43,699 - #19 [
+INFO  00:44:43,699 - #13 1
+INFO  00:44:43,699 - #20 ]
+INFO  00:44:43,700 - #11 =
+INFO  00:44:43,700 - #46 Z
+INFO  00:44:43,700 - #5 ;
+INFO  00:44:43,700 - #14 nizch
+INFO  00:44:43,701 - #19 [
+INFO  00:44:43,701 - #13 2
+INFO  00:44:43,701 - #20 ]
+INFO  00:44:43,701 - #11 =
+INFO  00:44:43,701 - #46 a
+INFO  00:44:43,701 - #5 ;
+INFO  00:44:43,701 - #14 nizch
+INFO  00:44:43,701 - #19 [
+INFO  00:44:43,702 - #13 3
+INFO  00:44:43,702 - #20 ]
+INFO  00:44:43,702 - #11 =
+INFO  00:44:43,702 - #46 z
+INFO  00:44:43,702 - #5 ;
+INFO  00:44:43,702 - #14 b
+INFO  00:44:43,702 - #11 =
+INFO  00:44:43,702 - #14 testOrdLen
+INFO  00:44:43,702 - #6 (
+INFO  00:44:43,702 - #14 nizch
+INFO  00:44:43,702 - #8 ,
+INFO  00:44:43,703 - #14 niz2
+INFO  00:44:43,703 - #19 [
+INFO  00:44:43,703 - #13 0
+INFO  00:44:43,703 - #20 ]
+INFO  00:44:43,703 - #7 )
+INFO  00:44:43,703 - #5 ;
+INFO  00:44:43,704 - #9 print
+INFO  00:44:43,704 - #6 (
+INFO  00:44:43,704 - #14 eol
+INFO  00:44:43,704 - #7 )
+INFO  00:44:43,704 - #5 ;
+INFO  00:44:43,704 - #9 print
+INFO  00:44:43,704 - #6 (
+INFO  00:44:43,704 - #14 b
+INFO  00:44:43,704 - #7 )
+INFO  00:44:43,705 - #5 ;
+INFO  00:44:43,705 - #4 }
+INFO  00:44:43,705 - #4 }
+INFO  00:44:43,720 - Deklaracija konstante Con i: int, 5, 0  na liniji 5
+INFO  00:44:43,721 - Obradjuje se funkcija testOrdLen na liniji 8
+INFO  00:44:43,721 - Pristup elementu niza nizch na liniji 10
+INFO  00:44:43,833 - Pristup elementu niza nizch na liniji 11
+INFO  00:44:43,833 - Pristup elementu niza nizch na liniji 12
+INFO  00:44:43,834 - Pristup elementu niza nizch na liniji 13
+INFO  00:44:43,834 - Upotreba lokalne promenljive broj na liniji 14
+INFO  00:44:43,834 - Upotreba lokalne promenljive nizch na liniji 15
+INFO  00:44:43,835 - Obradjuje se funkcija main na liniji 19
+INFO  00:44:43,835 - Deklaracija Var niz: Arr of enum, 0, 1  na liniji 20
+INFO  00:44:43,836 - Deklaracija Var ch: char, 1, 1  na liniji 21
+INFO  00:44:43,836 - Deklaracija Var niz2: Arr of enum, 2, 1  na liniji 22
+INFO  00:44:43,836 - Deklaracija Var nizch: Arr of char, 3, 1  na liniji 23
+INFO  00:44:43,836 - Deklaracija Var b: bool, 4, 1  na liniji 24
+INFO  00:44:43,836 - Deklaracija Var i: int, 5, 1  na liniji 25
+INFO  00:44:43,836 - Deklaracija Var nizint: Arr of int, 6, 1  na liniji 26
+INFO  00:44:43,836 - Upotreba lokalne promenljive i na liniji 28
+INFO  00:44:43,836 - Upotreba lokalne promenljive i na liniji 29
+INFO  00:44:43,837 - Upotreba lokalne promenljive i na liniji 30
+INFO  00:44:43,837 - Upotreba simbolicke konstante eol na liniji 31
+INFO  00:44:43,837 - Upotreba lokalne promenljive niz na liniji 33
+INFO  00:44:43,837 - Pristup elementu niza niz na liniji 34
+INFO  00:44:43,837 - Pristup elementu niza niz na liniji 35
+INFO  00:44:43,837 - Pristup elementu niza niz na liniji 36
+INFO  00:44:43,838 - Pristup elementu niza niz na liniji 37
+INFO  00:44:43,838 - Pristup elementu niza niz na liniji 38
+INFO  00:44:43,838 - Pristup elementu niza niz na liniji 39
+INFO  00:44:43,838 - Pristup elementu niza niz na liniji 40
+INFO  00:44:43,838 - Pristup elementu niza niz na liniji 41
+INFO  00:44:43,838 - Upotreba simbolicke konstante eol na liniji 42
+INFO  00:44:43,839 - Upotreba lokalne promenljive ch na liniji 45
+INFO  00:44:43,839 - Pristup elementu niza niz na liniji 45
+INFO  00:44:43,839 - Upotreba lokalne promenljive ch na liniji 46
+INFO  00:44:43,839 - Pristup elementu niza niz na liniji 47
+INFO  00:44:43,839 - Upotreba lokalne promenljive niz2 na liniji 48
+INFO  00:44:43,839 - Upotreba lokalne promenljive niz na liniji 48
+INFO  00:44:43,840 - Pristup elementu niza niz2 na liniji 49
+INFO  00:44:43,840 - Pristup elementu niza niz2 na liniji 50
+INFO  00:44:43,840 - Upotreba simbolicke konstante eol na liniji 51
+INFO  00:44:43,840 - Upotreba lokalne promenljive nizch na liniji 53
+INFO  00:44:43,840 - Pristup elementu niza nizch na liniji 54
+INFO  00:44:43,840 - Pristup elementu niza nizch na liniji 55
+INFO  00:44:43,840 - Pristup elementu niza nizch na liniji 56
+INFO  00:44:43,840 - Pristup elementu niza nizch na liniji 57
+INFO  00:44:43,841 - Upotreba lokalne promenljive b na liniji 58
+INFO  00:44:43,841 - Upotreba lokalne promenljive nizch na liniji 58
+INFO  00:44:43,841 - Pristup elementu niza niz2 na liniji 58
+INFO  00:44:43,841 - Upotreba simbolicke konstante eol na liniji 59
+INFO  00:44:43,842 - Upotreba lokalne promenljive b na liniji 60
+INFO  00:44:43,869 - Generating bytecode file: C:\Users\vdb\Documents\vv\ETF\_ VII semestar\pp1\projekat\workspace\MJCompiler\test\program.obj
+INFO  00:44:43,893 - Parsiranje uspesno zavrseno!

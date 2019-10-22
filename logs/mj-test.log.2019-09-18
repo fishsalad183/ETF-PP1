@@ -1,0 +1,376 @@
+INFO  23:57:16,384 - Compiling source file: C:\Users\vdb\Documents\vv\ETF\pp1\projekat\workspace\MJCompiler\test\test301.mj
+INFO  23:57:16,664 - #2 program
+INFO  23:57:16,664 - #14 test301
+INFO  23:57:16,665 - #18 enum
+INFO  23:57:16,671 - #14 Broj
+INFO  23:57:16,671 - #3 {
+INFO  23:57:16,675 - #14 NULA
+INFO  23:57:16,675 - #8 ,
+INFO  23:57:16,676 - #14 JEDAN
+INFO  23:57:16,677 - #8 ,
+INFO  23:57:16,678 - #14 PET
+INFO  23:57:16,678 - #11 =
+INFO  23:57:16,678 - #13 5
+INFO  23:57:16,679 - #8 ,
+INFO  23:57:16,679 - #14 DESET
+INFO  23:57:16,680 - #11 =
+INFO  23:57:16,681 - #13 10
+INFO  23:57:16,681 - #4 }
+INFO  23:57:16,681 - #17 const
+INFO  23:57:16,684 - #14 int
+INFO  23:57:16,685 - #14 jedan
+INFO  23:57:16,690 - #11 =
+INFO  23:57:16,691 - #13 1
+INFO  23:57:16,692 - #5 ;
+INFO  23:57:16,696 - #17 const
+INFO  23:57:16,697 - #14 int
+INFO  23:57:16,697 - #14 pet
+INFO  23:57:16,698 - #11 =
+INFO  23:57:16,698 - #13 5
+INFO  23:57:16,698 - #5 ;
+INFO  23:57:16,698 - #14 int
+INFO  23:57:16,698 - #14 niz
+INFO  23:57:16,702 - #19 [
+INFO  23:57:16,702 - #20 ]
+INFO  23:57:16,702 - #5 ;
+INFO  23:57:16,703 - #14 char
+INFO  23:57:16,706 - #14 nizch
+INFO  23:57:16,706 - #19 [
+INFO  23:57:16,706 - #20 ]
+INFO  23:57:16,707 - #5 ;
+INFO  23:57:16,707 - #3 {
+INFO  23:57:16,707 - #14 int
+INFO  23:57:16,712 - #14 inc
+INFO  23:57:16,716 - #6 (
+INFO  23:57:16,724 - #14 int
+INFO  23:57:16,724 - #14 broj
+INFO  23:57:16,724 - #7 )
+INFO  23:57:16,726 - #3 {
+INFO  23:57:16,728 - #10 return
+INFO  23:57:16,731 - #14 broj
+INFO  23:57:16,732 - #41 +
+INFO  23:57:16,734 - #14 Broj
+INFO  23:57:16,740 - #34 .
+INFO  23:57:16,740 - #14 JEDAN
+INFO  23:57:16,741 - #5 ;
+INFO  23:57:16,742 - #4 }
+INFO  23:57:16,743 - #12 void
+INFO  23:57:16,748 - #14 mul
+INFO  23:57:16,750 - #6 (
+INFO  23:57:16,751 - #14 int
+INFO  23:57:16,751 - #14 arr
+INFO  23:57:16,752 - #19 [
+INFO  23:57:16,752 - #20 ]
+INFO  23:57:16,754 - #8 ,
+INFO  23:57:16,756 - #14 int
+INFO  23:57:16,756 - #14 index
+INFO  23:57:16,756 - #8 ,
+INFO  23:57:16,762 - #14 int
+INFO  23:57:16,762 - #14 b
+INFO  23:57:16,762 - #7 )
+INFO  23:57:16,762 - #3 {
+INFO  23:57:16,762 - #14 arr
+INFO  23:57:16,762 - #19 [
+INFO  23:57:16,763 - #14 index
+INFO  23:57:16,763 - #20 ]
+INFO  23:57:16,763 - #11 =
+INFO  23:57:16,763 - #14 arr
+INFO  23:57:16,767 - #19 [
+INFO  23:57:16,768 - #14 index
+INFO  23:57:16,768 - #20 ]
+INFO  23:57:16,769 - #43 *
+INFO  23:57:16,769 - #14 b
+INFO  23:57:16,778 - #5 ;
+INFO  23:57:16,779 - #4 }
+INFO  23:57:16,780 - #12 void
+INFO  23:57:16,782 - #14 main
+INFO  23:57:16,784 - #6 (
+INFO  23:57:16,784 - #7 )
+INFO  23:57:16,788 - #14 int
+INFO  23:57:16,788 - #14 bodovi
+INFO  23:57:16,788 - #5 ;
+INFO  23:57:16,789 - #14 Broj
+INFO  23:57:16,790 - #14 nula
+INFO  23:57:16,791 - #8 ,
+INFO  23:57:16,791 - #14 jedan
+INFO  23:57:16,791 - #5 ;
+INFO  23:57:16,792 - #3 {
+INFO  23:57:16,792 - #14 nula
+INFO  23:57:16,793 - #11 =
+INFO  23:57:16,793 - #14 Broj
+INFO  23:57:16,794 - #34 .
+INFO  23:57:16,796 - #14 NULA
+INFO  23:57:16,796 - #5 ;
+INFO  23:57:16,796 - #14 jedan
+INFO  23:57:16,797 - #11 =
+INFO  23:57:16,797 - #14 Broj
+INFO  23:57:16,797 - #34 .
+INFO  23:57:16,798 - #14 JEDAN
+INFO  23:57:16,798 - #5 ;
+INFO  23:57:16,798 - #14 bodovi
+INFO  23:57:16,798 - #11 =
+INFO  23:57:16,799 - #13 0
+INFO  23:57:16,799 - #5 ;
+INFO  23:57:16,799 - #14 bodovi
+INFO  23:57:16,800 - #29 ++
+INFO  23:57:16,800 - #5 ;
+INFO  23:57:16,800 - #14 bodovi
+INFO  23:57:16,800 - #11 =
+INFO  23:57:16,801 - #14 bodovi
+INFO  23:57:16,801 - #41 +
+INFO  23:57:16,801 - #14 jedan
+INFO  23:57:16,801 - #5 ;
+INFO  23:57:16,802 - #14 bodovi
+INFO  23:57:16,802 - #11 =
+INFO  23:57:16,802 - #14 bodovi
+INFO  23:57:16,803 - #43 *
+INFO  23:57:16,804 - #14 pet
+INFO  23:57:16,807 - #5 ;
+INFO  23:57:16,808 - #14 bodovi
+INFO  23:57:16,808 - #30 --
+INFO  23:57:16,808 - #5 ;
+INFO  23:57:16,809 - #9 print
+INFO  23:57:16,809 - #6 (
+INFO  23:57:16,809 - #14 bodovi
+INFO  23:57:16,810 - #7 )
+INFO  23:57:16,815 - #5 ;
+INFO  23:57:16,815 - #14 niz
+INFO  23:57:16,816 - #11 =
+INFO  23:57:16,816 - #33 new
+INFO  23:57:16,816 - #14 int
+INFO  23:57:16,817 - #19 [
+INFO  23:57:16,817 - #13 2
+INFO  23:57:16,817 - #20 ]
+INFO  23:57:16,818 - #5 ;
+INFO  23:57:16,819 - #14 niz
+INFO  23:57:16,819 - #19 [
+INFO  23:57:16,819 - #14 nula
+INFO  23:57:16,820 - #20 ]
+INFO  23:57:16,820 - #11 =
+INFO  23:57:16,820 - #14 pet
+INFO  23:57:16,820 - #5 ;
+INFO  23:57:16,820 - #14 niz
+INFO  23:57:16,821 - #19 [
+INFO  23:57:16,821 - #13 1
+INFO  23:57:16,821 - #20 ]
+INFO  23:57:16,821 - #11 =
+INFO  23:57:16,822 - #14 Broj
+INFO  23:57:16,823 - #34 .
+INFO  23:57:16,823 - #14 DESET
+INFO  23:57:16,824 - #5 ;
+INFO  23:57:16,824 - #14 mul
+INFO  23:57:16,824 - #6 (
+INFO  23:57:16,827 - #14 niz
+INFO  23:57:16,827 - #8 ,
+INFO  23:57:16,830 - #14 inc
+INFO  23:57:16,830 - #6 (
+INFO  23:57:16,832 - #13 0
+INFO  23:57:16,832 - #7 )
+INFO  23:57:16,833 - #8 ,
+INFO  23:57:16,840 - #13 2
+INFO  23:57:16,840 - #7 )
+INFO  23:57:16,841 - #5 ;
+INFO  23:57:16,841 - #14 mul
+INFO  23:57:16,841 - #6 (
+INFO  23:57:16,842 - #14 niz
+INFO  23:57:16,842 - #8 ,
+INFO  23:57:16,843 - #14 Broj
+INFO  23:57:16,843 - #34 .
+INFO  23:57:16,843 - #14 NULA
+INFO  23:57:16,843 - #8 ,
+INFO  23:57:16,844 - #14 inc
+INFO  23:57:16,844 - #6 (
+INFO  23:57:16,844 - #14 inc
+INFO  23:57:16,844 - #6 (
+INFO  23:57:16,844 - #14 Broj
+INFO  23:57:16,845 - #34 .
+INFO  23:57:16,845 - #14 JEDAN
+INFO  23:57:16,845 - #7 )
+INFO  23:57:16,845 - #41 +
+INFO  23:57:16,846 - #13 1
+INFO  23:57:16,846 - #7 )
+INFO  23:57:16,846 - #7 )
+INFO  23:57:16,846 - #5 ;
+INFO  23:57:16,847 - #14 bodovi
+INFO  23:57:16,847 - #11 =
+INFO  23:57:16,847 - #14 niz
+INFO  23:57:16,847 - #19 [
+INFO  23:57:16,847 - #13 1
+INFO  23:57:16,848 - #20 ]
+INFO  23:57:16,848 - #44 /
+INFO  23:57:16,848 - #14 niz
+INFO  23:57:16,850 - #19 [
+INFO  23:57:16,851 - #13 0
+INFO  23:57:16,851 - #20 ]
+INFO  23:57:16,851 - #5 ;
+INFO  23:57:16,851 - #9 print
+INFO  23:57:16,852 - #6 (
+INFO  23:57:16,853 - #14 bodovi
+INFO  23:57:16,853 - #7 )
+INFO  23:57:16,853 - #5 ;
+INFO  23:57:16,854 - #9 print
+INFO  23:57:16,854 - #6 (
+INFO  23:57:16,854 - #14 niz
+INFO  23:57:16,854 - #19 [
+INFO  23:57:16,854 - #14 Broj
+INFO  23:57:16,854 - #34 .
+INFO  23:57:16,855 - #14 JEDAN
+INFO  23:57:16,855 - #20 ]
+INFO  23:57:16,855 - #7 )
+INFO  23:57:16,855 - #5 ;
+INFO  23:57:16,855 - #14 nizch
+INFO  23:57:16,855 - #11 =
+INFO  23:57:16,855 - #33 new
+INFO  23:57:16,855 - #14 char
+INFO  23:57:16,855 - #19 [
+INFO  23:57:16,856 - #13 3
+INFO  23:57:16,856 - #20 ]
+INFO  23:57:16,856 - #5 ;
+INFO  23:57:16,856 - #14 nizch
+INFO  23:57:16,856 - #19 [
+INFO  23:57:16,856 - #13 0
+INFO  23:57:16,856 - #20 ]
+INFO  23:57:16,856 - #11 =
+INFO  23:57:16,857 - #46 a
+INFO  23:57:16,857 - #5 ;
+INFO  23:57:16,857 - #14 nizch
+INFO  23:57:16,857 - #19 [
+INFO  23:57:16,857 - #14 jedan
+INFO  23:57:16,857 - #20 ]
+INFO  23:57:16,858 - #11 =
+INFO  23:57:16,858 - #46 b
+INFO  23:57:16,858 - #5 ;
+INFO  23:57:16,858 - #14 nizch
+INFO  23:57:16,858 - #19 [
+INFO  23:57:16,859 - #14 pet
+INFO  23:57:16,859 - #42 -
+INFO  23:57:16,859 - #13 3
+INFO  23:57:16,862 - #20 ]
+INFO  23:57:16,862 - #11 =
+INFO  23:57:16,862 - #46 c
+INFO  23:57:16,863 - #5 ;
+INFO  23:57:16,863 - #9 print
+INFO  23:57:16,863 - #6 (
+INFO  23:57:16,863 - #14 nizch
+INFO  23:57:16,864 - #19 [
+INFO  23:57:16,865 - #14 inc
+INFO  23:57:16,868 - #6 (
+INFO  23:57:16,868 - #13 0
+INFO  23:57:16,869 - #7 )
+INFO  23:57:16,910 - #20 ]
+INFO  23:57:16,910 - #7 )
+INFO  23:57:16,910 - #5 ;
+INFO  23:57:16,911 - #9 print
+INFO  23:57:16,911 - #6 (
+INFO  23:57:16,911 - #14 nizch
+INFO  23:57:16,911 - #19 [
+INFO  23:57:16,911 - #14 jedan
+INFO  23:57:16,912 - #43 *
+INFO  23:57:16,912 - #13 2
+INFO  23:57:16,912 - #20 ]
+INFO  23:57:16,915 - #7 )
+INFO  23:57:16,915 - #5 ;
+INFO  23:57:16,915 - #14 bodovi
+INFO  23:57:16,915 - #11 =
+INFO  23:57:16,915 - #14 bodovi
+INFO  23:57:16,940 - #41 +
+INFO  23:57:16,940 - #6 (
+INFO  23:57:16,940 - #6 (
+INFO  23:57:16,941 - #14 pet
+INFO  23:57:16,941 - #43 *
+INFO  23:57:16,941 - #14 jedan
+INFO  23:57:16,941 - #42 -
+INFO  23:57:16,941 - #13 1
+INFO  23:57:16,942 - #7 )
+INFO  23:57:16,942 - #43 *
+INFO  23:57:16,942 - #14 inc
+INFO  23:57:16,943 - #6 (
+INFO  23:57:16,943 - #14 Broj
+INFO  23:57:16,943 - #34 .
+INFO  23:57:16,943 - #14 JEDAN
+INFO  23:57:16,944 - #7 )
+INFO  23:57:16,944 - #42 -
+INFO  23:57:16,945 - #6 (
+INFO  23:57:16,945 - #13 3
+INFO  23:57:16,945 - #45 %
+INFO  23:57:16,945 - #13 2
+INFO  23:57:16,947 - #41 +
+INFO  23:57:16,948 - #13 3
+INFO  23:57:16,948 - #43 *
+INFO  23:57:16,948 - #13 2
+INFO  23:57:16,948 - #42 -
+INFO  23:57:16,949 - #13 3
+INFO  23:57:16,949 - #7 )
+INFO  23:57:16,949 - #42 -
+INFO  23:57:16,949 - #14 inc
+INFO  23:57:16,949 - #6 (
+INFO  23:57:16,950 - #14 Broj
+INFO  23:57:16,950 - #34 .
+INFO  23:57:16,950 - #14 NULA
+INFO  23:57:16,950 - #7 )
+INFO  23:57:16,951 - #43 *
+INFO  23:57:16,951 - #13 0
+INFO  23:57:16,951 - #7 )
+INFO  23:57:16,951 - #5 ;
+INFO  23:57:16,951 - #9 print
+INFO  23:57:16,951 - #6 (
+INFO  23:57:16,955 - #14 bodovi
+INFO  23:57:16,955 - #7 )
+INFO  23:57:16,955 - #5 ;
+INFO  23:57:16,956 - #28 read
+INFO  23:57:16,959 - #6 (
+INFO  23:57:16,966 - #14 bodovi
+INFO  23:57:16,966 - #7 )
+INFO  23:57:16,966 - #5 ;
+INFO  23:57:16,966 - #14 bodovi
+INFO  23:57:16,967 - #11 =
+INFO  23:57:16,967 - #14 inc
+INFO  23:57:16,967 - #6 (
+INFO  23:57:16,967 - #14 bodovi
+INFO  23:57:16,967 - #7 )
+INFO  23:57:16,968 - #5 ;
+INFO  23:57:16,968 - #9 print
+INFO  23:57:16,968 - #6 (
+INFO  23:57:16,968 - #14 bodovi
+INFO  23:57:16,968 - #7 )
+INFO  23:57:16,968 - #5 ;
+INFO  23:57:16,969 - #4 }
+INFO  23:57:17,023 - #4 }
+INFO  23:57:17,160 - Deklaracija konstante Con jedan: int, 1, 0  na liniji 7
+INFO  23:57:17,161 - Deklaracija konstante Con pet: int, 5, 0  na liniji 8
+INFO  23:57:17,161 - Deklaracija Var niz: Arr of int, 0, 0  na liniji 10
+INFO  23:57:17,161 - Deklaracija Var nizch: Arr of char, 1, 0  na liniji 11
+INFO  23:57:17,162 - Obradjuje se funkcija inc na liniji 14
+INFO  23:57:35,113 - Upotreba lokalne promenljive broj na liniji 16
+INFO  23:57:36,570 - Obradjuje se funkcija mul na liniji 19
+INFO  23:58:51,497 - Upotreba lokalne promenljive index na liniji 21
+INFO  23:58:58,345 - Upotreba lokalne promenljive index na liniji 21
+INFO  23:58:59,409 - Upotreba lokalne promenljive b na liniji 21
+INFO  23:58:59,410 - Obradjuje se funkcija main na liniji 24
+INFO  23:58:59,410 - Deklaracija Var bodovi: int, 0, 1  na liniji 25
+INFO  23:58:59,410 - Deklaracija Var nula: enum [
+   Con NULA: int, 0, 1 
+   Con JEDAN: int, 1, 1 
+   Con PET: int, 5, 1 
+   Con DESET: int, 10, 1 
+], 1, 1 
+ na liniji 26
+INFO  23:58:59,411 - Deklaracija Var jedan: enum [
+   Con NULA: int, 0, 1 
+   Con JEDAN: int, 1, 1 
+   Con PET: int, 5, 1 
+   Con DESET: int, 10, 1 
+], 2, 1 
+ na liniji 26
+INFO  23:59:00,129 - Upotreba lokalne promenljive nula na liniji 28
+INFO  23:59:02,464 - Upotreba lokalne promenljive jedan na liniji 29
+INFO  23:59:04,752 - Upotreba lokalne promenljive bodovi na liniji 31
+INFO  23:59:05,657 - Upotreba lokalne promenljive bodovi na liniji 32
+INFO  23:59:06,561 - Upotreba lokalne promenljive bodovi na liniji 33
+INFO  23:59:07,393 - Upotreba lokalne promenljive bodovi na liniji 33
+INFO  23:59:08,177 - Upotreba lokalne promenljive jedan na liniji 33
+INFO  23:59:09,153 - Upotreba lokalne promenljive bodovi na liniji 34
+INFO  23:59:10,209 - Upotreba lokalne promenljive bodovi na liniji 34
+INFO  23:59:11,352 - Upotreba simbolicke konstante pet na liniji 34
+INFO  23:59:12,344 - Upotreba lokalne promenljive bodovi na liniji 35
+INFO  23:59:13,424 - Upotreba lokalne promenljive bodovi na liniji 36

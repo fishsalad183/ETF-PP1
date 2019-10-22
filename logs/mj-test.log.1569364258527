@@ -1,0 +1,65 @@
+INFO  00:30:01,631 - Compiling source file: C:\Users\vdb\Documents\vv\ETF\pp1\projekat\workspace\MJCompiler\test\testErr.mj
+INFO  00:30:01,718 - #2 program
+INFO  00:30:01,718 - #14 testErrors
+INFO  00:30:01,719 - #14 int
+INFO  00:30:01,722 - #14 a
+INFO  00:30:01,724 - #5 ;
+INFO  00:30:01,724 - #14 int
+INFO  00:30:01,725 - #14 s
+INFO  00:30:01,725 - #13 3
+ERROR 00:30:01,726 - 
+Sintaksna greska na liniji 6
+INFO  00:30:01,726 - #5 ;
+INFO  00:30:01,726 - #14 int
+INFO  00:30:01,726 - #14 b
+INFO  00:30:01,731 - #5 ;
+INFO  00:30:01,731 - Oporavak od greske pri deklaraciji promenljive na liniji 6
+INFO  00:30:01,733 - #14 char
+INFO  00:30:01,733 - #14 ch1
+INFO  00:30:01,733 - #8 ,
+INFO  00:30:01,734 - #13 6
+ERROR 00:30:01,734 - 
+Sintaksna greska na liniji 8
+INFO  00:30:01,735 - #42 -
+INFO  00:30:01,735 - #14 e
+INFO  00:30:01,735 - #8 ,
+INFO  00:30:01,735 - #14 ch2
+INFO  00:30:01,735 - #5 ;
+INFO  00:30:01,735 - #3 {
+INFO  00:30:01,735 - Oporavak od greske pri deklaraciji promenljive na liniji 8
+INFO  00:30:01,736 - #12 void
+INFO  00:30:01,739 - #14 main
+INFO  00:30:01,740 - #6 (
+INFO  00:30:01,741 - #7 )
+INFO  00:30:01,742 - #3 {
+INFO  00:30:01,743 - #14 b
+INFO  00:30:01,744 - #11 =
+INFO  00:30:01,745 - #13 2
+INFO  00:30:01,746 - #5 ;
+INFO  00:30:01,747 - #14 a
+INFO  00:30:01,747 - #11 =
+INFO  00:30:01,747 - #14 b
+INFO  00:30:01,748 - #42 -
+INFO  00:30:01,748 - #5 ;
+ERROR 00:30:01,748 - 
+Sintaksna greska na liniji 13
+INFO  00:30:01,748 - #9 print
+INFO  00:30:01,748 - #6 (
+INFO  00:30:01,748 - #46 o
+ERROR 00:30:01,749 - Oporavak od greske pri dodeli vrednosti na liniji 1
+INFO  00:30:01,750 - #7 )
+INFO  00:30:01,751 - #5 ;
+INFO  00:30:01,751 - #9 print
+INFO  00:30:01,751 - #6 (
+INFO  00:30:01,751 - #46 k
+INFO  00:30:01,751 - #7 )
+INFO  00:30:01,751 - #5 ;
+INFO  00:30:01,751 - #4 }
+INFO  00:30:01,752 - #4 }
+INFO  00:30:01,768 - Deklaracija Var a: int, 0, 0  na liniji 5
+INFO  00:30:01,768 - Deklaracija Var b: int, 1, 0  na liniji 7
+INFO  00:30:01,768 - Deklaracija Var ch1: char, 2, 0  na liniji 8
+INFO  00:30:01,769 - Deklaracija Var ch2: char, 3, 0  na liniji 8
+INFO  00:30:01,769 - Obradjuje se funkcija main na liniji 10
+INFO  00:30:01,769 - Upotreba globalne promenljive b na liniji 12
+ERROR 00:30:01,772 - Parsiranje NIJE uspesno zavrseno!

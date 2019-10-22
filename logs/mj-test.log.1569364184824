@@ -1,0 +1,37 @@
+INFO  00:29:23,688 - Compiling source file: C:\Users\vdb\Documents\vv\ETF\pp1\projekat\workspace\MJCompiler\test\testErr.mj
+INFO  00:29:23,779 - #2 program
+INFO  00:29:23,779 - #14 testErrors
+INFO  00:29:23,780 - #14 int
+INFO  00:29:23,782 - #14 a
+INFO  00:29:23,783 - #5 ;
+INFO  00:29:23,784 - #14 int
+INFO  00:29:23,784 - #14 b
+INFO  00:29:23,785 - #5 ;
+INFO  00:29:23,785 - #3 {
+INFO  00:29:23,785 - #12 void
+INFO  00:29:23,788 - #14 main
+INFO  00:29:23,789 - #6 (
+INFO  00:29:23,790 - #7 )
+INFO  00:29:23,791 - #3 {
+INFO  00:29:23,792 - #14 b
+INFO  00:29:23,793 - #11 =
+INFO  00:29:23,794 - #13 2
+INFO  00:29:23,796 - #5 ;
+INFO  00:29:23,797 - #9 print
+INFO  00:29:23,797 - #6 (
+INFO  00:29:23,797 - #46 o
+INFO  00:29:23,798 - #7 )
+INFO  00:29:23,799 - #5 ;
+INFO  00:29:23,799 - #9 print
+INFO  00:29:23,800 - #6 (
+INFO  00:29:23,800 - #46 k
+INFO  00:29:23,800 - #7 )
+INFO  00:29:23,800 - #5 ;
+INFO  00:29:23,800 - #4 }
+INFO  00:29:23,801 - #4 }
+INFO  00:29:23,819 - Deklaracija Var a: int, 0, 0  na liniji 5
+INFO  00:29:23,820 - Deklaracija Var b: int, 1, 0  na liniji 7
+INFO  00:29:23,820 - Obradjuje se funkcija main na liniji 10
+INFO  00:29:23,820 - Upotreba globalne promenljive b na liniji 12
+INFO  00:29:23,823 - Generating bytecode file: C:\Users\vdb\Documents\vv\ETF\pp1\projekat\workspace\MJCompiler\test\program.obj
+INFO  00:29:23,836 - Parsiranje uspesno zavrseno!

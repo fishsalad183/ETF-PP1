@@ -1,0 +1,447 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+
+terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, COMMA, PRINT, RETURN, EQUAL, VOID;
+terminal Integer NUMBER ;
+terminal String IDENT ;
+terminal IF, ELSE;
+
+terminal CONST, ENUM, LBRACK, RBRACK, CLASS, EXTENDS, IMPLEMENTS, INTERFACE;
+terminal FOR, BREAK, CONTINUE, READ, INC, DEC, OR, AND, NEW, DOT;
+terminal EQUALTO, NOTEQUALTO, GREATERTHAN, GREATERTHANOREQUALTO, LESSTHAN, LESSTHANOREQUALTO;
+terminal PLUS, MINUS, TIMES, DIV, MOD;
+terminal Character CHARCONST ;
+terminal Boolean BOOLCONST ;
+terminal THIS;
+
+terminal OPTARG;
+
+
+nonterminal OptargOption;
+
+nonterminal FormPars, FormalParamList, FormalParamDecl, VarDeclList, ActualPars, ActualParamList, ActualParam; 
+nonterminal StatementList, Statement, DesignatorStatement, ProcName, FuncName;
+nonterminal Assignop, Relop, Addop, Mulop;
+// nonterminal Unmatched, Matched;
+
+nonterminal DeclList, DeclPart, VarsDecl, VarType, VarList, VarPart;
+nonterminal ConstsDecl, ConstType, ConstList, ConstPart, SomeConstant;
+nonterminal EnumDecl, EnumName, EnumList, EnumPart;
+nonterminal InterfaceDecl, InterfaceName, InterfaceMethodDeclList, InterfaceMethodDecl, InterfaceMethodName;
+nonterminal ClassDecl, ClassName, ExtendsClass, ImplementsInterfaces, ImplementsList, ImplementsPart, ClassMethodDecls;
+
+nonterminal ReturnType;
+nonterminal PrintNum;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName, Designator, MethodDecl, MethodName; 
+nonterminal MethodDeclList;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr, Term, Factor;
+
+
+
+Program ::=	(Program) PROG ProgName:p DeclList LBRACE MethodDeclList RBRACE 
+			;
+
+ProgName ::=	(ProgName) IDENT:pName 
+				;
+
+
+
+DeclList ::=	(Declarations) DeclList DeclPart
+				|
+				(NoDecl) /* epsilon */ 
+				;
+				
+DeclPart ::=	(DeclPartConst) ConstsDecl
+				|
+				(DeclPartVar) VarsDecl
+				|
+				(DeclPartEnum) EnumDecl
+				|
+				(DeclPartInterface) InterfaceDecl
+				|
+				(DeclPartClass) ClassDecl
+				;
+
+
+
+ConstsDecl ::=	(ConstsDeclSuccess) CONST ConstType ConstList SEMI
+				|
+				(ConstsDeclError) CONST error:e SEMI
+				{: parser.report_error("Oporavak od greske pri deklaraciji konstante na liniji " + eleft, null); :}
+				;
+
+ConstType ::=	(ConstType) Type
+				;
+
+ConstList ::=	(ConstDeclMultiple) ConstList COMMA ConstPart
+				|
+				(ConstDeclSingle) ConstPart
+				;
+
+ConstPart ::=	(ConstPart) IDENT:constName EQUAL SomeConstant
+				;
+
+SomeConstant ::=	(NumConstDecl) NUMBER:val
+					|
+					(CharConstDecl) CHARCONST:val
+					|
+					(BoolConstDecl) BOOLCONST:val
+					;
+
+
+
+VarsDecl ::=	(VarsDeclaration) VarType VarList SEMI
+				|
+				(VarsDeclErr) error:e SEMI
+				{: parser.report_error("Oporavak od greske pri deklaraciji promenljive na liniji " + eleft, null); :}
+				;
+			
+VarType ::= (VarType) Type
+			;
+
+VarList ::= (VarDeclMultiple) VarList COMMA VarPart
+			|
+			(VarDeclSingle) VarPart
+			;
+			
+VarPart ::= (VarDecl) IDENT:varName
+			|
+			(ArrDecl) IDENT:arrName LBRACK RBRACK
+			|
+			(VarPartError) error:e
+			{: parser.report_info("Oporavak od greske pri deklaraciji promenljive na liniji " + eleft, null); :}
+			;
+			
+VarDeclList ::=	(VarDecls) VarDeclList VarsDecl
+				|
+				(NoVarDecls) /* epsilon */
+				;
+
+
+
+Type ::=	(Type) IDENT:typeName
+			;
+
+
+
+EnumDecl ::=	(EnumDecl) ENUM EnumName LBRACE EnumList RBRACE
+				;
+
+EnumName ::=	(EnumName) IDENT:enumName
+				;
+
+EnumList ::=	(EnumMultiple) EnumList COMMA EnumPart
+				|
+				(EnumSingle) EnumPart
+				;
+
+EnumPart ::=	(EnumExplicit) IDENT:enumConstName EQUAL NUMBER:enumConstVal
+				|
+				(EnumImplicit) IDENT:enumConstName
+				;
+		
+				
+				
+InterfaceDecl ::=	(InterfaceDecl) INTERFACE InterfaceName LBRACE InterfaceMethodDeclList RBRACE
+					;
+
+InterfaceName ::=	(InterfaceName) IDENT:name
+					;
+					
+InterfaceMethodDeclList ::=	(InterfaceMethods) InterfaceMethodDeclList InterfaceMethodDecl
+							|
+							(NoInterfaceMethods) /* epsilon */
+							;
+					
+InterfaceMethodDecl ::=	(InterfaceMethodDecl) OptargOption ReturnType InterfaceMethodName LPAREN FormPars RPAREN SEMI
+						;
+
+InterfaceMethodName ::=	(InterfaceMethodName) IDENT:name
+						;
+
+
+
+ClassDecl ::=	(ClassDecl) CLASS ClassName ExtendsClass ImplementsInterfaces LBRACE VarDeclList ClassMethodDecls RBRACE
+				;
+
+ClassName ::=	(ClassName) IDENT:name
+				;
+
+ExtendsClass ::=	(ExtendsType) EXTENDS Type:superclassType
+					|
+					(NoExtends) /* epsilon */
+					;
+
+ImplementsInterfaces ::=	(DoesImplement) IMPLEMENTS ImplementsList
+							|
+							(DoesNotImplement) /* epsilon */
+							;
+				
+ImplementsList ::=	(ImplementsMultiple) ImplementsList COMMA ImplementsPart
+					|
+					(ImplementsSingle) ImplementsPart
+					;
+					
+ImplementsPart ::=	(ImplementsType) Type:implementedType
+					;
+					
+ClassMethodDecls ::=	(ClassMethodDeclarations) LBRACE MethodDeclList RBRACE
+						|
+						(NoClassMethodDeclarations) /* epsilon */
+						;
+
+
+
+ReturnType ::=	(TypeReturn) Type
+				|
+				(VoidReturn) VOID
+				;
+
+
+
+MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
+					|
+					(NoMethodDecl)/* epsilon */
+					;
+
+MethodDecl ::=	(MethodDecl) OptargOption ReturnType MethodName
+				LPAREN FormPars RPAREN VarDeclList LBRACE StatementList RBRACE 
+				;
+
+MethodName ::=	(MethodName) IDENT:name
+				;
+
+FormPars ::=	(FormParams) FormalParamList
+				|
+				(NoFormParam) /* epsilon */
+				;
+
+FormalParamList ::= (FormalParamDecls) FormalParamList COMMA FormalParamDecl
+					|
+					(SingleFormalParamDecl) FormalParamDecl
+					;
+					
+FormalParamDecl ::=	(FormalParamDeclVar) Type IDENT:name
+					|
+					(FormalParamDeclArr) Type IDENT:name LBRACK RBRACK
+					;
+					
+ActualPars ::=	(Actuals) ActualParamList 
+				| 
+				(NoActuals) /* epsilon */ 
+				;
+			   
+ActualParamList ::= (ActualParams) ActualParamList COMMA ActualParam
+					|
+					(ActualParamSingle) ActualParam
+					;
+					
+ActualParam ::=	(ActualParam) Expr
+				;
+				
+				
+				
+OptargOption ::=	(OptargYes) OPTARG
+					|
+					(OptargNo) /* epsilon */
+					;
+
+
+
+StatementList ::=	(Statements) StatementList Statement 
+					|
+					(NoStmt) /* epsilon */
+					;
+
+Statement ::=	(StatementDes) DesignatorStatement
+				|
+				(ReturnExpr) RETURN Expr:t SEMI
+				|
+				(ReturnNoExpr) RETURN SEMI
+				|
+				(ReadStmt) READ LPAREN Designator RPAREN SEMI
+				|
+				(PrintStmt) PRINT LPAREN Expr PrintNum RPAREN SEMI
+				;
+				
+PrintNum ::=	(PrintWithNum) COMMA NUMBER
+				|
+				(PrintWithoutNum) /* epsilon */
+				;
+				
+DesignatorStatement ::=	(Assignment) Designator:dest Assignop Expr:e SEMI
+						|
+						(Increment) Designator INC SEMI
+						|
+						(Decrement) Designator DEC SEMI
+						|
+						(ProcCall) ProcName LPAREN ActualPars RPAREN SEMI
+						|
+						(ErrAssignment) Designator Assignop error:e SEMI
+						{: parser.report_error("Oporavak od greske pri dodeli vrednosti na liniji " + eleft, null); :}
+						;
+						
+ProcName ::=	(ProcName) Designator
+				;
+
+
+
+/* -------------------------------------------
+Statement ::=	(MatchedStmt) Matched
+				|
+				(UnmachedStmt) Unmatched
+				;
+
+Unmatched ::=	(UnmatchedIf) IF Expr Statement
+				|
+				(UnmatchedIfElse) IF Expr Matched ELSE Unmatched
+				;
+				  
+Matched ::=	  (Assignment) Designator:dest EQUAL Expr:e SEMI 
+			  |
+			  (ErrAssignment) Designator EQUAL error SEMI
+			  {: parser.log.debug("Oporavak od greske pri dodeli vrednosti."); :}
+			  |
+			  (PrintStmt) PRINT LPAREN Expr RPAREN SEMI 
+			  |
+			  (ReturnExpr) RETURN Expr:t SEMI
+			  |
+			  (ReturnNoExpr) RETURN SEMI
+			  | 
+			  (MatchedIf) IF Expr Matched ELSE Matched
+			  |
+			  (ProcCall) Designator:func LPAREN ActualPars RPAREN SEMI
+			  ;
+------------------------------------------- */
+
+
+
+Expr ::=	(TermExpr) Term:t
+			|
+			(NegExpr) MINUS Term
+			|
+			(AddExpr) Expr:te Addop Term:t
+			;
+
+Term ::=	(TermSimple) Factor:t
+			|
+			(TermMulop) Term Mulop Factor
+			;
+
+Factor ::=	(NumConst) NUMBER
+			|
+			(CharConst) CHARCONST
+			|
+			(BoolConst) BOOLCONST
+			|
+			(Var) Designator:d
+			|
+			(ExprInParentheses) LPAREN Expr RPAREN
+			|
+			(FuncCall) FuncName LPAREN ActualPars RPAREN
+			|
+			(NewArray) NEW Type LBRACK Expr RBRACK
+			|
+			(NewClass) NEW Type
+			;
+			
+FuncName ::=	(FuncName) Designator
+				;
+
+Designator ::=	(DesignatorSimple) IDENT:name
+				|
+				(DesignatorDot) Designator DOT IDENT:member
+				|
+				(DesignatorArray) Designator LBRACK Expr RBRACK
+				;
+
+
+
+Assignop ::=	(Assign) EQUAL
+				;
+				
+Relop ::=	(EqualTo) EQUALTO
+			|
+			(NotEqualTo) NOTEQUALTO
+			|
+			(GreaterThan) GREATERTHAN
+			|
+			(GreaterThanOrEqualTo) GREATERTHANOREQUALTO
+			|
+			(LessThan) LESSTHAN
+			|
+			(LessThanOrEqualTo) LESSTHANOREQUALTO
+			;
+
+Addop ::=	(Add) PLUS
+			|
+			(Sub) MINUS
+			;
+
+Mulop ::=	(Mul) TIMES
+			|
+			(Div) DIV
+			|
+			(Mod) MOD
+			;
+
+
+			
+			
+			
+			
+			
