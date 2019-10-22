@@ -1,0 +1,29 @@
+// testOptarg
+
+program testOptarg
+	
+{
+	optarg int a(int x, char y, bool z, int niz[])
+		int q;
+	{
+		print(x); print(ord(y)); print(z);
+		print(eol);
+		q = -x;
+		return q;
+	}
+	
+//	optarg void greska() {}
+
+	void main()
+		int broj;
+	{
+		broj = a(5, 'Y', true, new int[2]);
+		print(broj);
+		print(eol);
+		broj = a();
+		print(broj);
+		print(eol);
+	}
+}
+
+

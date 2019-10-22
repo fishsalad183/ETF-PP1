@@ -1,0 +1,64 @@
+// test
+
+program test
+	enum Broj { NULA, JEDAN, SEDAM = 7, OSAM }
+	const int i = 5;
+{
+
+	bool testOrdLen(char nizch[], Broj broj)
+	{
+		print(ord(nizch[0]));
+		print(ord(nizch[1]));
+		print(ord(nizch[2]));
+		print(ord(nizch[3]));
+		print(broj);
+		print(len(nizch));
+		return true;
+	}
+
+	void main()
+		Broj niz[];
+		char ch;
+		Broj niz2[];
+		char nizch[];
+		bool b;
+		int i;
+		int nizint[];
+	{
+		i = -7;
+		i++;
+		print(i);
+		print(eol);
+		
+		niz = new Broj[4];
+		niz[0] = Broj.SEDAM;
+		niz[1] = Broj.JEDAN;
+		niz[2] = Broj.OSAM;
+		niz[3] = Broj.NULA;
+		print(-(niz[0] * ((2))));
+		print(niz[1]);
+		print(niz[2]);
+		print(niz[3]);
+		print(eol);
+		
+		print(chr(80));
+		ch = chr(80 + niz[1]);
+		print(ch);
+		print(chr(80 + niz[2]));
+		niz2 = niz;
+		print(niz2[0]);
+		print(niz2[1]);
+		print(eol);
+		
+		nizch = new char[4];
+		nizch[0] = 'A';
+		nizch[1] = 'Z';
+		nizch[2] = 'a';
+		nizch[3] = 'z';
+		b = testOrdLen(nizch, niz2[0]);
+		print(eol);
+		print(b);
+	}
+}
+
+

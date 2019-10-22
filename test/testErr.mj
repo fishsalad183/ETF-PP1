@@ -1,0 +1,16 @@
+// testErrors
+
+program testErrors
+	^	// leksicka
+	int a;
+	int s 3;	// sintaksna, oporavak
+	int b;
+	char ch1, 6-e, ch2;		// sintaksna, oporavak
+{!	// leksicka
+	void #main()	// leksicka
+	{
+		b = 2;
+		a = b- ;	// sintaksna, oporavak
+		print('o'); print('k');
+	}
+}
